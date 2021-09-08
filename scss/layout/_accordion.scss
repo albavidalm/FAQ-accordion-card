@@ -1,0 +1,50 @@
+.accordion {
+  z-index: 300;
+  width: 100%;
+}
+.question {
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: $colorquestion;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  &:hover {
+    color: $colorhover;
+  }
+  &__current {
+    color: $colorselect;
+    font-weight: 700;
+  }
+}
+.answer {
+  padding-bottom: 10px;
+  padding-right: 22px;
+  font-weight: 400;
+  font-size: $fsize;
+  color: $coloranswer;
+  line-height: 2em;
+  transition: all 1s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.arrow {
+  border: none;
+  background-color: transparent;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  &__reverse {
+    transform: rotate(180deg);
+  }
+}
+
+.divider {
+  border-top: 1px solid $divider;
+}
