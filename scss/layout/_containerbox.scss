@@ -25,8 +25,8 @@
   position: absolute;
   background-color: transparent;
   transform: translateY(-62%);
-  background-image: url(./images/illustration-woman-online-mobile.svg),
-    url(./images/bg-pattern-mobile.svg);
+  background-image: url(../images/illustration-woman-online-mobile.svg),
+    url(../images/bg-pattern-mobile.svg);
   background-repeat: no-repeat;
   background-position-x: -27px, 0;
   background-position-y: 0, 105px;
@@ -36,13 +36,13 @@
     transform: translateY(0);
     position: relative;
     background-color: transparent;
-    background-image: url(../../images/illustration-woman-online-desktop.svg),
-      url(../../images/bg-pattern-desktop.svg);
+    background-image: url(../images/illustration-woman-online-desktop.svg),
+      url(../images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-position-x: 100%, 100%;
     background-position-y: 50%, 67%;
     &__box {
-      background-image: url(../../images/illustration-box-desktop.svg);
+      background-image: url(../images/illustration-box-desktop.svg);
       position: relative;
       background-repeat: no-repeat;
       height: 180px;
