@@ -398,6 +398,22 @@ body {
           align-items: center;
 }
 
+@media all and (min-width: 1440px) {
+  .containerbox {
+    width: 70vw;
+    max-width: 920px;
+    height: 510px;
+    padding: 80px 100px 80px 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .logo {
   height: 215px;
   width: 245px;
@@ -411,11 +427,29 @@ body {
   background-position-y: 0, 105px;
 }
 
-.title {
-  margin-top: 38%;
-  font-weight: 700;
-  text-align: center;
-  color: #1d1e35;
+@media all and (min-width: 1440px) {
+  .logo {
+    height: 510px;
+    width: 390px;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    position: relative;
+    background-color: transparent;
+    background-image: url(../../images/illustration-woman-online-desktop.svg), url(../../images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: 100%, 100%;
+    background-position-y: 50%, 67%;
+  }
+  .logo__box {
+    background-image: url(../../images/illustration-box-desktop.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    -webkit-transform: translateX(-24%);
+            transform: translateX(-24%);
+    background-position-y: 64%;
+  }
 }
 
 .accordion {
@@ -432,6 +466,26 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+@media all and (min-width: 1440px) {
+  .accordion {
+    width: 350px;
+  }
+}
+
+.title {
+  margin-top: 38%;
+  font-weight: 700;
+  text-align: center;
+  color: #1d1e35;
+}
+
+@media all and (min-width: 1440px) {
+  .title {
+    text-align: left;
+    margin-top: 0;
+  }
 }
 
 .question {
@@ -506,6 +560,17 @@ body {
       -ms-flex-align: baseline;
           align-items: baseline;
   font-size: 14px;
+}
+
+@media all and (min-width: 1440px) {
+  .footer {
+    width: 920px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 100px;
+  }
 }
 
 .author {

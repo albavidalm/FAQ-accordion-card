@@ -5,7 +5,22 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  @include desktop {
+    width: 350px;
+  }
 }
+
+.title {
+  margin-top: 38%;
+  font-weight: 700;
+  text-align: center;
+  color: $colorselect;
+  @include desktop {
+    text-align: left;
+    margin-top: 0;
+  }
+}
+
 .question {
   font-weight: 400;
   font-size: 14px;

@@ -5,6 +5,12 @@
   display: flex;
   align-items: baseline;
   font-size: 14px;
+  @include desktop {
+    width: 920px;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 100px;
+  }
 }
 
 .author {
