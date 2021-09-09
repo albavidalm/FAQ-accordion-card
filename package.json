@@ -1,0 +1,19 @@
+{
+  "name": "faq-accordion-card",
+  "version": "1.0.0",
+  "description": "An accordion menu in HTML, CSS and JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albavidalm/FAQ-accordion-card.git"
+  },
+  "author": "Alba Vidal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/albavidalm/FAQ-accordion-card/issues"
+  },
+  "homepage": "https://github.com/albavidalm/FAQ-accordion-card#readme"
+}

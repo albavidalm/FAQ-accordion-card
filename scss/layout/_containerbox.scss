@@ -1,6 +1,7 @@
 .containerbox {
   background-color: white;
   width: 90vw;
+  max-width: 330px;
   height: 70vh;
   padding: 25px;
   border-radius: 25px;
@@ -13,11 +14,12 @@
 .logo {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   position: absolute;
   &__front {
     z-index: 200;
-    transform: translateY(-65%);
+    margin-left: -20px;
+    transform: translateY(-70%) scale(1.05);
   }
   &__back {
     z-index: 100;
