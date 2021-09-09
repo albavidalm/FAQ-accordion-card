@@ -45,10 +45,24 @@
       background-image: url(../../images/illustration-box-desktop.svg);
       position: relative;
       background-repeat: no-repeat;
-      height: 100%;
-      width: 100%;
-      transform: translateX(-24%);
-      background-position-y: 64%;
+      height: 180px;
+      width: 200px;
+      /*transform: translateX(-24%);*/
+      /*background-position-y: 64%;*/
+      animation-duration: 1.1s;
+      animation-name: updown;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      margin-left: -93px;
+      margin-top: 190px;
+    }
+    @keyframes updown {
+      from {
+        transform: translateY(30px);
+      }
+      to {
+        transform: translateY(15px);
+      }
     }
   }
 }
