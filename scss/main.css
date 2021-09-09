@@ -421,7 +421,7 @@ body {
   background-color: transparent;
   -webkit-transform: translateY(-62%);
           transform: translateY(-62%);
-  background-image: url(../../images/illustration-woman-online-mobile.svg), url(../../images/bg-pattern-mobile.svg);
+  background-image: url(./images/illustration-woman-online-mobile.svg), url(./images/bg-pattern-mobile.svg);
   background-repeat: no-repeat;
   background-position-x: -27px, 0;
   background-position-y: 0, 105px;
