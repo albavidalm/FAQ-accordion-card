@@ -12,19 +12,16 @@
 }
 
 .logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 215px;
+  width: 245px;
   position: absolute;
-  &__front {
-    z-index: 200;
-    margin-left: -20px;
-    transform: translateY(-70%) scale(1.05);
-  }
-  &__back {
-    z-index: 100;
-    transform: translateY(-205%);
-  }
+  background-color: transparent;
+  transform: translateY(-62%);
+  background-image: url(../../images/illustration-woman-online-mobile.svg),
+    url(../../images/bg-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-position-x: -27px, 0;
+  background-position-y: 0, 105px;
 }
 
 .title {

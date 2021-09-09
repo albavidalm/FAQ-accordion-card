@@ -399,30 +399,16 @@ body {
 }
 
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: 215px;
+  width: 245px;
   position: absolute;
-}
-
-.logo__front {
-  z-index: 200;
-  margin-left: -20px;
-  -webkit-transform: translateY(-70%) scale(1.05);
-          transform: translateY(-70%) scale(1.05);
-}
-
-.logo__back {
-  z-index: 100;
-  -webkit-transform: translateY(-205%);
-          transform: translateY(-205%);
+  background-color: transparent;
+  -webkit-transform: translateY(-62%);
+          transform: translateY(-62%);
+  background-image: url(../../images/illustration-woman-online-mobile.svg), url(../../images/bg-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-position-x: -27px, 0;
+  background-position-y: 0, 105px;
 }
 
 .title {
