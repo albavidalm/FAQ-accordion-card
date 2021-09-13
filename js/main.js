@@ -1,31 +1,23 @@
 "use strict";
 
-const questionClick = document.querySelectorAll(".js-collapsible");
-const showAnswer = document.querySelectorAll(".js-hidden");
+const item = document.querySelectorAll(".js-item");
+const question = document.querySelectorAll(".js-collapsible");
 const icons = document.querySelectorAll(".js-icon");
 
 //Recorremos todas las preguntas
-questionClick.forEach((question, i) => {
+question.forEach((everyquestion, i) => {
   //Asignamos un click a cada pregunta
-  questionClick[i].addEventListener("click", () => {
-    //Recorremos todas las respuestas
-    showAnswer.forEach((answer, i) => {
-      //Añadimos la clase hidden a todas las respuestas
-      questionClick[i].classList.remove("question__current");
+  question[i].addEventListener("click", () => {
+    //Recorremos todos los items
+    item.forEach((everyitem, i) => {
+      //Quitamos las clases
+      item[i].classList.remove("active");
+      question[i].classList.remove("faq__question--current");
       icons[i].classList.remove("arrow__reverse");
-      showAnswer[i].classList.add("hidden");
     });
-
-    //Quitamos la clase hidden a la respuesta que tenga la misma posición que la pregunta
-    questionClick[i].classList.add("question__current");
+    //Al hacer click añadimos estas clases
+    item[i].classList.add("active");
+    question[i].classList.add("faq__question--current");
     icons[i].classList.add("arrow__reverse");
-    showAnswer[i].classList.remove("hidden");
   });
 });
-/*
-if (showAnswer.classList == "hidden") {
-  showAnswer.classList.remove("hidden");
-} else {
-  showAnswer.classList.add("hidden");
-}
-*/

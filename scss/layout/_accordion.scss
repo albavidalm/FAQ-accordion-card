@@ -21,10 +21,12 @@
   }
 }
 
-.question {
+.faq__question {
+  padding-top: 0.8em;
   font-weight: 400;
   font-size: 14px;
   color: $colorquestion;
+  line-height: 0.6em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,30 +35,28 @@
   &:hover {
     color: $colorhover;
   }
-  &__current {
+  &--current {
     color: $colorselect;
     font-weight: 700;
   }
 }
-.answer {
-  margin-top: -10px;
+.faq__answer {
   padding-right: 22px;
+  line-height: 1.6em;
+  height: 0;
   font-weight: 400;
   font-size: $fsize;
   color: $coloranswer;
-  line-height: 2em;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
+  overflow: hidden;
 }
 
-.hidden {
-  display: none;
+.faq__item.active .faq__answer {
+  height: 4.6em;
 }
 
 .arrow {
-  border: none;
-  background-color: transparent;
-  font-weight: bolder;
-  cursor: pointer;
+  height: 8px;
   transition: all 0.5s ease;
   &__reverse {
     transform: rotate(180deg);
