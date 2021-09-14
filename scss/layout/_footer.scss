@@ -4,12 +4,12 @@
   font-weight: lighter;
   display: flex;
   align-items: baseline;
-  font-size: 14px;
+  font-size: 0.875em;
   @include desktop {
-    width: 920px;
+    width: 57.5em;
     justify-content: flex-end;
-    padding-top: 20px;
-    padding-right: 100px;
+    padding-top: 1.25em;
+    padding-right: 3.125em;
   }
 }
 

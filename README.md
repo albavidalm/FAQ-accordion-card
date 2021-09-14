@@ -4,17 +4,15 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Stage](#stage)
-  - [Screenshot](#screenshot)
+  - [Stage](#stage-🏗)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  - [Thanks to](#thanks-to)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-- [Support](#support)
+- [Support](#🖤-support)
 
 ## Overview
 
@@ -26,15 +24,16 @@
 
 ### Stage 🏗
 
-I'm improving the JavaScript code and some animations so come back soon to see it.
+I'm refactoring the code but I've improved some animations, the HTML semantics and some of the JavaScript code that you can check in the other branches I created for the project.
 
-## Screenshots
+### Screenshots
 
 ![](images/Screenshot.png)
 
-## Links
+### Links
 
 - Code: [https://github1s.com/albavidalm/FAQ-accordion-card](https://github1s.com/albavidalm/FAQ-accordion-card)
+
 - Live Site URL: [https://albavidalm.github.io/FAQ-accordion-card/](https://albavidalm.github.io/FAQ-accordion-card/)
 
 ## My process
@@ -49,17 +48,21 @@ I'm improving the JavaScript code and some animations so come back soon to see i
 - JavaScript
 - Mobile-first workflow
 
+### What I learned
+
+I refreshed my CSS, Sass and JavaScript skills and experimented with the Live Saas Compiler plugin for VSC (absolutely in love with it).
+
+I'm specially proud of the animated box on the Desktop layout where I worked hard with the "position" properties.
+
+### Thanks to
+
+Thanks to my friend [Nur](https://github.com/NurAhissami) for helping me out of the bad loops.
+
 ## Author
 
 - GitHub: [https://github.com/albavidalm](https://github.com/albavidalm)
 - Email: [albavidalm @ gmail.com](mailto:albavidalm@gmail.com?subject=Hi)
 - Linkedin: [https://www.linkedin.com/in/albavidalm/](https://www.linkedin.com/in/albavidalm/)
-
-## Acknowledgments
-
-I refreshed my CSS, Sass and JavaScript skills and experimented with the Live Saas Compiler plugin for VSC (absolutely in love with it).
-
-I'm specially proud of the animated box on the Desktop layout where I worked hard with the "position" properties.
 
 ## 🖤 Support
 

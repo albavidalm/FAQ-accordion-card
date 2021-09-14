@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   @include desktop {
-    width: 350px;
+    width: 21.875em;
   }
 }
 
@@ -24,7 +24,7 @@
 .faq__question {
   padding-top: 0.8em;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875em;
   color: $colorquestion;
   line-height: 0.6em;
   display: flex;
@@ -41,7 +41,7 @@
   }
 }
 .faq__answer {
-  padding-right: 22px;
+  padding-right: 1.375em;
   line-height: 1.6em;
   height: 0;
   font-weight: 400;
@@ -56,7 +56,7 @@
 }
 
 .arrow {
-  height: 8px;
+  height: 0.5em;
   transition: all 0.5s ease;
   &__reverse {
     transform: rotate(180deg);
@@ -64,5 +64,5 @@
 }
 
 .divider {
-  border-top: 1px solid $divider;
+  border-top: 0.063em solid $divider;
 }
